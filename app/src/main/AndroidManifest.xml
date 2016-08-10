@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="online_code.whasapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icn_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:theme="@android:style/Theme.Holo.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelecLocal"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name=".SelectServicios"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity android:name=".SelectHorario"
+            android:theme="@android:style/Theme.Holo.Light"
+            ></activity>
+    </application>
+
+</manifest>
